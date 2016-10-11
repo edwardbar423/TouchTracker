@@ -13,5 +13,7 @@
 
 @property (nonatomic) NSMutableDictionary *currentLines;
 @property (nonatomic) NSMutableArray *finishedLines;
+@property (nonatomic, weak) Line *selectedLine;
+@property (nonatomic) UIPanGestureRecognizer *moveRecognizer;
 
 @end
